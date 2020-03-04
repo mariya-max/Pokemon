@@ -13,6 +13,8 @@ public class RealmController {
 
     private Realm realm;
 
+    //test
+
     public RealmController(Context context) {
         RealmConfiguration config = new RealmConfiguration.Builder(context).build();
         realm.setDefaultConfiguration(config);
